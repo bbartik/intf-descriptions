@@ -11,6 +11,14 @@ This script uses netmiko to connect to a list of devices and update their interf
 
 ## To Run
 
+First you need netmiko:
+
+```
+pip install netmiko
+```
+
+Then just this command:
+
 ```
 python3 cdp-update.py devices.yaml
 ```
