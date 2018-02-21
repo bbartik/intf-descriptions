@@ -88,7 +88,7 @@ for x in load_update_list():
         rport = interface['Rport']
         config_cmd = []
         config_cmd.append("interface " + lport)
-        config_cmd.append("description "+ "Connected to " + nbr + "_" + lport)
+        config_cmd.append("description "+ "Connected to " + nbr + "_" + rport)
         print (config_cmd)
         output = net_connect.send_config_set(config_cmd)
         print (output)
