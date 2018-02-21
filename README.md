@@ -11,7 +11,9 @@ This script uses netmiko to connect to a list of devices and update their interf
 
 ## To Run
 
-First you need netmiko:
+First you need tp update your devices file. Use the example provided.
+
+Then make sure you install netmiko:
 
 ```
 pip install netmiko
