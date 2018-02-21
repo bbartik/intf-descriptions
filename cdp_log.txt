@@ -1,0 +1,39 @@
+---
+
+- device_type : cisco_ios
+  ip : 192.168.255.1
+  username : cisco
+  password : cisco
+  interfaces :
+    - { Device : "R3.bb.lab", Lport : "Ethernet0/0", Rport : "Ethernet0/0" }
+    - { Device : "R2.bb.lab", Lport : "Ethernet0/3", Rport : "Ethernet0/3" }
+- device_type : cisco_ios
+  ip : 192.168.255.2
+  username : cisco
+  password : cisco
+  interfaces :
+    - { Device : "R1.bb.lab", Lport : "Ethernet0/3", Rport : "Ethernet0/3" }
+    - { Device : "R3.bb.lab", Lport : "Ethernet0/0", Rport : "Ethernet0/1" }
+- device_type : cisco_ios
+  ip : 192.168.255.3
+  username : cisco
+  password : cisco
+  interfaces :
+    - { Device : "R5.bb.lab", Lport : "Ethernet0/3", Rport : "Ethernet0/0" }
+    - { Device : "R4.bb.lab", Lport : "Ethernet0/2", Rport : "Ethernet0/0" }
+    - { Device : "R1.bb.lab", Lport : "Ethernet0/0", Rport : "Ethernet0/0" }
+    - { Device : "R2.bb.lab", Lport : "Ethernet0/1", Rport : "Ethernet0/0" }
+- device_type : cisco_ios
+  ip : 192.168.255.4
+  username : cisco
+  password : cisco
+  interfaces :
+    - { Device : "R5.bb.lab", Lport : "Ethernet0/3", Rport : "Ethernet0/3" }
+    - { Device : "R3.bb.lab", Lport : "Ethernet0/0", Rport : "Ethernet0/2" }
+- device_type : cisco_ios
+  ip : 192.168.255.5
+  username : cisco
+  password : cisco
+  interfaces :
+    - { Device : "R4.bb.lab", Lport : "Ethernet0/3", Rport : "Ethernet0/3" }
+    - { Device : "R3.bb.lab", Lport : "Ethernet0/0", Rport : "Ethernet0/3" }
