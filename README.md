@@ -9,6 +9,12 @@ This script uses netmiko to connect to a list of devices and update their interf
 * It creates a file called cdp_log.txt which is also a yaml with an interface list for each devices 
 * Phase 2: It connects to each device and updates CDP
 
+## To Run
+
+```
+python3 cdp-update.py devices.yaml
+```
+
 ## Future
 
 I need to figure out how to do this in one pass and not have to use the "temporary" cdp_log.txt file
